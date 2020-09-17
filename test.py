@@ -5,7 +5,7 @@ import sys
 for source in s1:
   ses = lt.session()
   ses.listen_on(6881, 6891)
-  params = {"save_path": "./"}
+  params = {"save_path": "./torrent"}
   if isinstance(source, str):h = lt.add_magnet_uri(ses, source, params)
   else:
     params["ti"] = lt.torrent_info(list(source.keys())[0])
