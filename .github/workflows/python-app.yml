@@ -31,7 +31,7 @@ jobs:
     - name: Upload
       uses: Difegue/action-megacmd@master
       with:
-        args: put /Vikings S01 Complete Season 1 EXTENDED BluRay 720p x265 HEVC [nate_666]/ /
+        args: put / /
       env:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
