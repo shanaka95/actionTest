@@ -32,7 +32,7 @@ jobs:
     - name: Upload
       uses: Difegue/action-megacmd@master
       with:
-        args: put /torrent /torrent
+        args: put ./torrent/ /torrent/
       env:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
