@@ -18,4 +18,4 @@ for source in s1:
     print(" \r%.2f%% of %.2fMB, %.1f, %.1f , %d, %s " % (s.progress * 100,s.total_wanted/1024.0/1024.0,s.download_rate / 1000,s.upload_rate / 1000,s.num_peers,state_str[s.state],))
     sys.stdout.flush()
     time.sleep(1)
-  print(h.name(), "complete")
+  print(h.name(), "complete ")
